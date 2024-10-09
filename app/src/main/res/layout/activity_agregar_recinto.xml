@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AgregarRecintoActivity">
+
+    <EditText
+        android:id="@+id/editText_nombre_recinto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="Nombre de recinto"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText_capacidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="Capacidad del recinto"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editText_direccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="Direccion de recinto"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_guardar_recinto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="Guardar" />
+
+    <ListView
+        android:id="@+id/mostrar_recintos"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0" />
+
+</LinearLayout>
